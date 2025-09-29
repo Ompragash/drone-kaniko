@@ -19,7 +19,7 @@ steps:
 - name: docker
   image: plugins/docker
   settings:
-    repo: plugins/kaniko
+    repo: harnesscommunitytest/kaniko
     auto_tag: true
     auto_tag_suffix: linux-amd64
     daemon_off: false
@@ -36,7 +36,7 @@ steps:
 - name: gcr
   image: plugins/docker
   settings:
-    repo: plugins/kaniko-gcr
+    repo: harnesscommunitytest/kaniko-gcr
     auto_tag: true
     auto_tag_suffix: linux-amd64
     daemon_off: false
@@ -53,7 +53,7 @@ steps:
 - name: gar
   image: plugins/docker
   settings:
-    repo: plugins/kaniko-gar
+    repo: harnesscommunitytest/kaniko-gar
     auto_tag: true
     auto_tag_suffix: linux-amd64
     daemon_off: false
@@ -70,7 +70,7 @@ steps:
 - name: ecr
   image: plugins/docker
   settings:
-    repo: plugins/kaniko-ecr
+    repo: harnesscommunitytest/kaniko-ecr
     auto_tag: true
     auto_tag_suffix: linux-amd64
     daemon_off: false
@@ -87,7 +87,7 @@ steps:
 - name: acr
   image: plugins/docker
   settings:
-    repo: plugins/kaniko-acr
+    repo: harnesscommunitytest/kaniko-acr
     auto_tag: true
     auto_tag_suffix: linux-amd64
     daemon_off: false
@@ -104,7 +104,7 @@ steps:
 - name: docker-kaniko-v1-9
   image: plugins/docker
   settings:
-    repo: plugins/kaniko
+    repo: harnesscommunitytest/kaniko
     auto_tag: true
     auto_tag_suffix: linux-amd64-kaniko1.9.1
     daemon_off: false
@@ -121,7 +121,7 @@ steps:
 - name: gcr-kaniko-v1-9
   image: plugins/docker
   settings:
-    repo: plugins/kaniko-gcr
+    repo: harnesscommunitytest/kaniko-gcr
     auto_tag: true
     auto_tag_suffix: linux-amd64-kaniko1.9.1
     daemon_off: false
@@ -138,7 +138,7 @@ steps:
 - name: gar-kaniko-v1-9
   image: plugins/docker
   settings:
-    repo: plugins/kaniko-gar
+    repo: harnesscommunitytest/kaniko-gar
     auto_tag: true
     auto_tag_suffix: linux-amd64-kaniko1.9.1
     daemon_off: false
@@ -155,7 +155,7 @@ steps:
 - name: ecr-kaniko-v1-9
   image: plugins/docker
   settings:
-    repo: plugins/kaniko-ecr
+    repo: harnesscommunitytest/kaniko-ecr
     auto_tag: true
     auto_tag_suffix: linux-amd64-kaniko1.9.1
     daemon_off: false
@@ -186,7 +186,7 @@ steps:
 - name: docker
   image: plugins/docker
   settings:
-    repo: plugins/kaniko
+    repo: harnesscommunitytest/kaniko
     auto_tag: true
     auto_tag_suffix: linux-arm64
     daemon_off: false
@@ -203,7 +203,7 @@ steps:
 - name: gcr
   image: plugins/docker
   settings:
-    repo: plugins/kaniko-gcr
+    repo: harnesscommunitytest/kaniko-gcr
     auto_tag: true
     auto_tag_suffix: linux-arm64
     daemon_off: false
@@ -220,7 +220,7 @@ steps:
 - name: gar
   image: plugins/docker
   settings:
-    repo: plugins/kaniko-gar
+    repo: harnesscommunitytest/kaniko-gar
     auto_tag: true
     auto_tag_suffix: linux-arm64
     daemon_off: false
@@ -237,7 +237,7 @@ steps:
 - name: ecr
   image: plugins/docker
   settings:
-    repo: plugins/kaniko-ecr
+    repo: harnesscommunitytest/kaniko-ecr
     auto_tag: true
     auto_tag_suffix: linux-arm64
     daemon_off: false
@@ -254,7 +254,7 @@ steps:
 - name: acr
   image: plugins/docker
   settings:
-    repo: plugins/kaniko-acr
+    repo: harnesscommunitytest/kaniko-acr
     auto_tag: true
     auto_tag_suffix: linux-arm64
     daemon_off: false
@@ -271,7 +271,7 @@ steps:
 - name: docker-kaniko-v1-9
   image: plugins/docker
   settings:
-    repo: plugins/kaniko
+    repo: harnesscommunitytest/kaniko
     auto_tag: true
     auto_tag_suffix: linux-arm64-kaniko1.9.1
     daemon_off: false
@@ -288,7 +288,7 @@ steps:
 - name: gcr-kaniko-v1-9
   image: plugins/docker
   settings:
-    repo: plugins/kaniko-gcr
+    repo: harnesscommunitytest/kaniko-gcr
     auto_tag: true
     auto_tag_suffix: linux-arm64-kaniko1.9.1
     daemon_off: false
@@ -305,7 +305,7 @@ steps:
 - name: gar-kaniko-v1-9
   image: plugins/docker
   settings:
-    repo: plugins/kaniko-gar
+    repo: harnesscommunitytest/kaniko-gar
     auto_tag: true
     auto_tag_suffix: linux-arm64-kaniko1.9.1
     daemon_off: false
@@ -322,7 +322,7 @@ steps:
 - name: ecr-kaniko-v1-9
   image: plugins/docker
   settings:
-    repo: plugins/kaniko-ecr
+    repo: harnesscommunitytest/kaniko-ecr
     auto_tag: true
     auto_tag_suffix: linux-arm64-kaniko1.9.1
     daemon_off: false
